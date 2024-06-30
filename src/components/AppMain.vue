@@ -17,7 +17,18 @@ export default {
 </script>
 
 <template>
-<h1>appmainnnn</h1>
+    <div class="container">
+        <h1>Progetti</h1>
+        <div class="row row-cols-4 g-3">
+            <div class="col" v-for="project in projects">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h4>{{ project.name }}</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </template>
 
 <style scoped lang="scss">
