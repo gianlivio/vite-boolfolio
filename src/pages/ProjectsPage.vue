@@ -1,13 +1,11 @@
 <script>
 import axios from "axios";
-import AppHeader from './AppHeader.vue';
-import AppFooter from './AppFooter.vue';
+
 
 export default {
 
     components: {
-        AppHeader,
-        AppFooter
+    
     },
 
     data() {
@@ -54,7 +52,7 @@ export default {
 
 <template>
     <div class="app-container">
-        <Header />
+        
         <div class="content">
             <div class="container">
                 <h1>Progetti</h1>
@@ -78,7 +76,7 @@ export default {
                 </div>
             </div>
         </div>
-        <Footer />
+        
     </div>
 </template>
 
