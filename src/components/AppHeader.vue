@@ -22,7 +22,12 @@ export default {
                   href="#"
                   >Home</router-link>
                 </li>
-                <li><a href="#">About</a></li>
+                <li><router-link 
+                  :to="{ name: 'about' }"
+                  class="nav-link active"
+                  aria-current="page"
+                  href="#"
+                  >About</router-link></li>
                 <li>
                   <router-link 
                   :to="{ name: 'projects' }"
