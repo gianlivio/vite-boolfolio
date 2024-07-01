@@ -16,7 +16,7 @@ export default {
             <ul class="d-flex nav-links">
                 <li class="nav-item">
                   <router-link 
-                  :to="{ name: home }"
+                  :to="{ name: 'home' }"
                   class="nav-link active"
                   aria-current="page"
                   href="#"
@@ -25,7 +25,7 @@ export default {
                 <li><a href="#">About</a></li>
                 <li>
                   <router-link 
-                  :to="{ name: projects }"
+                  :to="{ name: 'projects' }"
                   class="nav-link active"
                   aria-current="page"
                   href="#"
