@@ -1,13 +1,13 @@
 <script>
 import axios from "axios";
-import Header from './Header.vue';
-import Footer from './Footer.vue';
+import AppHeader from './AppHeader.vue';
+import AppFooter from './AppFooter.vue';
 
 export default {
 
     components: {
-        Header,
-        Footer
+        AppHeader,
+        AppFooter
     },
 
     data() {
@@ -15,7 +15,7 @@ export default {
             projects: [], // Un array vuoto per memorizzare i progetti
             page: 1, // Numero della pagina corrente, inizialmente impostato a 1
             perPage: 8, // Numero di progetti per pagina
-            totalProjects: 0 // Totale dei progetti, inizialmente impostato a 0
+            totalProjects: 0 // Totale dei progetti, inizialmente impostato a 0npm run dev
         }
     },
     
