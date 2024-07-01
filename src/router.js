@@ -1,4 +1,4 @@
-import { createRouter, createWebHashHistory } from "vue-router";
+import { createRouter, createWebhHistory } from "vue-router";
 import ProjectsPage from "./pages/ProjectsPage.vue";
 
 const router = createRouter  ({
@@ -6,8 +6,8 @@ const router = createRouter  ({
     routes: [
         {
             path: '/',
-            name: 'posts',
-            component: ProjectPage,
+            name: 'projects',
+            component: ProjectsPage,
         },
     ],
 });
