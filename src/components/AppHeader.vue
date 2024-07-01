@@ -22,13 +22,14 @@ export default {
                   href="#"
                   >Home</router-link>
                 </li>
-                <li><router-link 
+                <li class="nav-item">
+                  <router-link 
                   :to="{ name: 'about' }"
                   class="nav-link active"
                   aria-current="page"
                   href="#"
                   >About</router-link></li>
-                <li>
+                  <li class="nav-item">
                   <router-link 
                   :to="{ name: 'projects' }"
                   class="nav-link active"
@@ -36,7 +37,14 @@ export default {
                   href="#"
                   >Projects</router-link>
                 </li>
-                <li><a href="#">Contact</a></li>
+                <li class="nav-item">
+                  <router-link 
+                  :to="{ name: 'contact' }"
+                  class="nav-link active"
+                  aria-current="page"
+                  href="#"
+                  >Contact</router-link>
+                </li>
             </ul>
         </nav>
     </header>
