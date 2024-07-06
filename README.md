@@ -4,60 +4,50 @@
 
 ## Overview
 
-Welcome to Boolfolio, a project demonstrating the integration of a Laravel backend API with a Vue.js frontend using Vite. This project is split into two repositories:
-
-- **Backend**: A Laravel API that serves project data.
-- **Frontend**: A Vue.js application that fetches and displays project data from the backend API.
+Boolfolio integrates a Laravel backend API with a Vue.js frontend using Vite. 
 
 ## Features
 
-- **Laravel Backend API** ![API](https://img.icons8.com/ios-filled/50/000000/api.png)
+- **Backend API** ![API](https://img.icons8.com/external-outline-juicy-fish/40/000000/external-api-coding-and-development-outline-outline-juicy-fish.png)
   - RESTful endpoints
   - JSON responses
-  - Secure and efficient data handling
-- **Vue.js Frontend** ![Vue.js](https://img.icons8.com/color/50/000000/vue-js.png)
-  - Dynamic data fetching with Axios
-  - Responsive design with Vite
-  - Pagination and search functionality
+  - Secure and efficient
+
+- **Frontend** ![Vue.js](https://img.icons8.com/color/40/000000/vue-js.png)
+  - Data fetching with Axios
+  - Responsive design
+  - Pagination
 
 ## Milestones
 
-### Milestone 1: Laravel API ![Milestone](https://img.icons8.com/ios-filled/50/000000/checked-checkbox.png)
+### Milestone 1: Laravel API ![Milestone](https://img.icons8.com/external-flat-juicy-fish/40/000000/external-api-coding-and-development-flat-flat-juicy-fish.png)
+- Create `Api/ProjectController` to return project data in JSON.
 
-- Add `Api/ProjectController` to handle API requests and return project data in JSON format.
-
-### Milestone 2: Test API with Postman ![Test](https://img.icons8.com/ios-filled/50/000000/test-passed.png)
-
-- Verify API response to ensure data is fetched correctly.
+### Milestone 2: Test API ![Test](https://img.icons8.com/color/40/000000/postman-api.png)
+- Verify API response with Postman.
 
 ![Postman Call](public/postman-call.png)
 
-### Milestone 3: Vue.js Frontend Setup ![Setup](https://img.icons8.com/ios-filled/50/000000/settings.png)
+### Milestone 3: Vue.js Setup ![Setup](https://img.icons8.com/external-flat-juicy-fish/40/000000/external-setup-coding-and-development-flat-flat-juicy-fish.png)
+- Set up Vue 3 with Vite and Axios.
 
-- Set up a new Vue 3 project with Vite and install Axios for HTTP requests.
+### Milestone 4: Fetch Data ![Fetch](https://img.icons8.com/external-flat-juicy-fish/40/000000/external-data-coding-and-development-flat-flat-juicy-fish.png)
+- Fetch and display project data in Vue.js.
 
-### Milestone 4: Fetch Data in Vue.js ![Fetch](https://img.icons8.com/ios-filled/50/000000/data-transfer.png)
-
-- Make an API call from the Vue app to fetch and display project data.
-- Print results in the console to verify data reception.
-
-### Milestone 5: Project Cards ![Cards](https://img.icons8.com/ios-filled/50/000000/id-card.png)
-
-- Create a `ProjectCard` component to display individual projects.
-- Add styling to make the cards visually appealing.
+### Milestone 5: Project Cards ![Cards](https://img.icons8.com/external-flat-juicy-fish/40/000000/external-id-card-vote-flat-flat-juicy-fish.png)
+- Create `ProjectCard` component for displaying projects.
 
 ![Projects Page](public/projects.png)
 
-### Bonus: Pagination ![Pagination](https://img.icons8.com/ios-filled/50/000000/pagination.png)
-
-- Implement pagination to manage large datasets on the frontend.
+### Bonus: Pagination ![Pagination](https://img.icons8.com/external-flat-juicy-fish/40/000000/external-pagination-coding-and-development-flat-flat-juicy-fish.png)
+- Implement pagination in the frontend.
 
 ## Screenshots
 
-### Backend Dashboard ![Dashboard](https://img.icons8.com/ios-filled/50/000000/dashboard.png)
+### Backend Dashboard ![Dashboard](https://img.icons8.com/external-flat-juicy-fish/40/000000/external-dashboard-coding-and-development-flat-flat-juicy-fish.png)
 ![Backend Dashboard](public/backend-dashboard.png)
 
-### Contact Page ![Contact](https://img.icons8.com/ios-filled/50/000000/contact-card.png)
+### Contact Page ![Contact](https://img.icons8.com/external-flat-juicy-fish/40/000000/external-contact-coding-and-development-flat-flat-juicy-fish.png)
 ![Contact Page](public/getintouch.jpg.png)
 
 ---
