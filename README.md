@@ -31,7 +31,7 @@ Boolfolio integrates a Laravel backend API with a Vue.js frontend using Vite.
 ### Milestone 3: Vue.js Setup ![Setup](https://img.icons8.com/ios-filled/50/000000/settings.png)
 - Set up Vue 3 with Vite and Axios.
 
-### Milestone 4: Fetch Data ![Fetch](https://img.icons8.com/ios-filled/50/000000/cloud-download.png)
+### Milestone 4: Fetch Data ![Fetch]
 - Fetch and display project data in Vue.js.
 
 ### Milestone 5: Project Cards
