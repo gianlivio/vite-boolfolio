@@ -71,7 +71,7 @@ Welcome to Boolfolio, a project demonstrating the integration of a Laravel backe
 1. Clone the repository:
 
     ```sh
-    git clone https://github.com/your-username/vite-boolfolio.git
+    git clone https://github.com/gianlivio/vite-boolfolio.git
     cd vite-boolfolio
     ```
 
@@ -101,7 +101,7 @@ Once both servers are running, you can access the frontend application at `http:
 
 - Verify API response to ensure data is fetched correctly.
 
-![Postman Call](./postman-call.png)
+![Postman Call](/public/postman-call.png)
 
 ### Milestone 3: Vue.js Frontend Setup
 
@@ -117,16 +117,16 @@ Once both servers are running, you can access the frontend application at `http:
 - Create a `ProjectCard` component to display individual projects.
 - Add styling to make the cards visually appealing.
 
-![Projects Page](./projects.png)
+![Projects Page](/public/projects.png)
 
 ### Bonus: Pagination
 
 - Implement pagination to manage large datasets on the frontend.
 
 ### Backend Dashboard
-![Backend Dashboard](./backend-dashboard.png)
+![Backend Dashboard](/public/backend-dashboard.png)
 
 ### Contact Page
-![Contact Page](./getintouch.jpg.png)
+![Contact Page](/public/getintouch.jpg.png)
 
 ---
