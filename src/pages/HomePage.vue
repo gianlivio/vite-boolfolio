@@ -83,6 +83,7 @@ export default {
         .services .card-title {
         font-size: 1.5em;
         margin-bottom: 10px;
+        color: #ecbd00;
         }
 
         .services .card-text {
